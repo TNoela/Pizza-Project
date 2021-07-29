@@ -1,19 +1,19 @@
 # Pizza-Project
 # Author
- Trixie Noela
+<b>Trixie Noela
 # Description
 This projects aim is to create a web application for a pizza place where a customer can order different sizes of pizzas with one or more toppings, request for a delivery if need be and total charges together with the order summary displayed to them .
 ## Technologies Used
-JavaScript<br>
-JQuery<br>
-HTML<br>
-CSS<br>
-Bootstrap<br>
+*JavaScript<br>
+*JQuery<br>
+*HTML<br>
+*CSS<br>
+*Bootstrap<br>
 ## Setup Instructions
-Open the Terminal command line:(CTRL+ALT+T)<br>
-Clone the repository: <b>[git clone https://github.com/TNoela/Pizza-Project.git ]<br>
-[cd Pizza-Project]<br>
-Open index.html file on your browser
+*Open the Terminal command line:(CTRL+ALT+T)<br>
+*Clone the repository: <b>[git clone https://github.com/TNoela/Pizza-Project.git ]<br>
+*[cd Pizza-Project]<br>
+*Open index.html file on your browser
 # Live Page
 https://tnoela.github.io/Pizza-Project/
 # Contact Information
