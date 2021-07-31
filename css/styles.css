@@ -191,6 +191,7 @@ padding: 10px;
 }
 #contactdetails h2{
   text-align: left;
+  flex: bold;
 }
 .footer{
   padding-top: 5%;
