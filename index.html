@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pizza Perfecto</title>
+  <link rel="icon" href="Images/perfectoIcon.png" type="">
+  <link
+    href="https://fonts.googleapis.com/css?family=Arima+Madurai|Cormorant|Eczar|El+Messiri|Itim|Sancreek|Wallpoet&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<html>
+
+<body>
+  <header>
+    <div class="view landing">
+      <div id="overlay">
+        <nav class="navbar navbar-expand-sm bg-success navbar-dark fixed-top">
+          <a class="navbar-brand" href="#">Pizza Perfecto</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse align-items-center" id="">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about_us">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#menu">Menu&Order</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="mask rgba-black-light align-items-center">
+          <div class="container" id="home">
+            <div class="row">
+              <div class="col-md-12 mb-4 white-text text-center text">
+                <h1 class="h1-reponsive gold-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 pulse"><strong>Pizza
+                    Perfecto</strong></h1>
+                <h5 class="text-uppercase mb-4 gold-text floater"><strong>Enjoy Perfect Pizza at affordable
+                    prices!!</strong></h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="arrow bounce"> <a href="#about_us"> <img src="Images/arrow.png" alt=" arrow" width="40px"></a></div>
+      </div>
+    </div>
+  </header>
+
+  <div class="controls-top text-center" id="about_us">
+    <h2>About Us</h2>
+  </div>
+  <div class="container-fluid section" id="about-us">
+    <div class="col-sm-12 d-flex flex-xs-column">
+      <div class="col-sm-7 img text-center about-img">
+        <div class="about-pic">
+          <img src="images/c_background.jpg" alt="about-us">
+        </div>
+      </div>
+      <div class="col-sm-5 align-items-center">
+        <div class="content">
+          <h3 style="font-size:40px">Pizza Perfecto</h3>
+          <p style="font-size:20px">Pizza Perfecto is one of the best pizza places to be.<br>
+            It has been in the pizza business for over 5 years now and is well known for its great performance.<br>
+            It has two branches so far, that is; Nairobi and Nakuru.We offer country wide delivery services, <br>
+            so feel free to join the family!!.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <form class="form-group" id="menu">
+    <div class="controls-top text-center" id="menu">
+      <h2>Menu&Order</h2>
+    </div>
+    <div class="order">
+      <div class="row">
+        <div class="col-md-4 col-xs-9">
+          <div class="card">
+            <img src="images/chicken.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Pizza Sizes</h5>
+              <p class="card-text">Choose what Size you want:</p>
+              <select required class="form-control" id="size">
+                <option></option>
+                <option value="small-pizza">small (700)</option>
+                <option value="medium-pizza">medium (1200)</option>
+                <option value="large-pizza">large (1500)</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-xs-9">
+          <div class="card">
+            <img src="images/meatdeluxe.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Type of Crust</h5>
+              <p class="card-text">Choose what crust you want:</p>
+              <select required class="form-control" id="crust">
+                <option></option>
+
+                <option value="thick">Thick crust (200)</option>
+                <option value="cheese-filled">Cheese filled (250)</option>
+                <option value="crispy">Crispy crust (100)</option>
+                <option value="stuffed">Stuffed (150)</option>
+                <option value="thin">Thin crust (150)</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-xs-9">
+          <div class="card">
+            <img src="images/veg.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Toppings</h5>
+              <p class="card-text">Choose the toppings you want:</p>
+              <select required class="form-control" id="toppings">
+                <option></option>
+                <option value="chicken">Chicken (300)</option>
+                <option value="vegetables">Vegetables (150)</option>
+                <option value="meat">Meat (200)</option>
+                <option value="spicy_boerewors">Spicy Boerewors (200)</option>
+                <option value="pepperoni">Pepperoni (200)</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><br><br>
+    <button type="submit" class="order-button btn btn-dark" id="submit-pizza">Order Here</button>
+    <input type="number" id="amount" placeholder="Quantity of pizza" required>
+  </form>
+  <div class="col-xs-4" id="order">
+    <h2>Price: Ksh <span id="final-cost"></span></h2><br><br>
+    <div id="deliver" class="deliver">
+      <h5>Do you want your order to be delivered? 150ksh will be charged for delivery.</h5><br>
+      <form id="address-form">
+        <div class="col-xs-6">
+          <label for="first-name"></label>
+          <input id="location" type="text" size="40" placeholder="Where should we deliver?.." required />
+          <button class="btn btn-dark complete" type="submit">Enter</button>
+          <h3><span id="delivery-option"></span></h3>
+        </div>
+
+      </form>
+    </div><br>
+    <button type="btn" class="btn btn-dark" id="checkout-btn">Checkout</button><br><br>
+    <div id="order-details" class="col-xs-12">
+      <ul id="pizza-details">
+        <strong>Your order is as follows: </strong>
+      </ul>
+      <h5 id="pizza-details">
+        Thanks for shopping with us.Enjoy your meal!! </h5>
+    </div>
+  </div>
+  <br>
+  <div class="container-fluid bg-default" id="contact">
+    <div class="controls-top ">
+      <h2>Contact Us</h2>
+    </div>
+    <div class="row" id="contactdetails">
+      <div class="col-md-1">
+      </div>
+      <br>
+      <div class="col-md-3 text-justify">
+        <h3>Customer Care</h3>
+        <p>noelatrixie@gmail.com</p>
+        <p>Tell:0512211900</p>
+        <p>Phone:+25471 434 6654</p>
+      </div>
+      <div class="col-md-3">
+        <h3>Location</h3>
+        <p>Pizza Perfecto</p>
+        <p>WestSide Mall | Nakuru</p>
+        <p>20100, Nakuru</p>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="row">
+      <div class="container text-center footer">
+        <p> Pizza Perfecto <br> &copy; 2021</p>
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
