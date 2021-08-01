@@ -33,7 +33,7 @@ h5 {
   padding-top: 20%;
 }
 .landing{
-  background-image: url("../Images/home.jpg");
+  background-image: url("images/home.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
