@@ -3,21 +3,24 @@
 <b>Trixie Noela
 # Description
 This projects aim is to create a web application for a pizza place where a customer can order different sizes of pizzas with one or more toppings, request for a delivery if need be and total charges together with the order summary displayed to them .
-## Technologies Used
+# Technologies Used
 *JavaScript<br>
 *JQuery<br>
 *HTML<br>
 *CSS<br>
 *Bootstrap<br>
-## Setup Instructions
+# Setup Instructions
 *Open the Terminal command line:(CTRL+ALT+T)<br>
 *Clone the repository: <b>[git clone https://github.com/TNoela/Pizza-Project.git ]<br>
 *[cd Pizza-Project]<br>
 *Open index.html file on your browser
 # Live Page
 https://tnoela.github.io/Pizza-Project/
-#Screenshots  
-  <img width="941" alt="Home" src="https://user-images.githubusercontent.com/87005540/127765449-ea113bf6-da79-4e2a-8bff-e482d790b598.png">
+  
+# Screenshots  
+<img width="941" alt="Home" src="https://user-images.githubusercontent.com/87005540/127765449-ea113bf6-da79-4e2a-8bff-e482d790b598.png">
+<img width="937" alt="About" src="https://user-images.githubusercontent.com/87005540/127765479-550f3db8-6da8-49b3-aa23-064f04009946.png">
+<img width="908" alt="Menu" src="https://user-images.githubusercontent.com/87005540/127765487-a8f34274-de7c-4678-94a2-fdaec4f4c935.png">
 
   
 # Contact Information
