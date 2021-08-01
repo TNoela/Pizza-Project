@@ -1,4 +1,4 @@
-# Pizza-Project
+# Pizza Perfecto
 # Author
 <b>Trixie Noela
 # Description
