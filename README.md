@@ -16,6 +16,10 @@ This projects aim is to create a web application for a pizza place where a custo
 *Open index.html file on your browser
 # Live Page
 https://tnoela.github.io/Pizza-Project/
+#Screenshots  
+  <img width="941" alt="Home" src="https://user-images.githubusercontent.com/87005540/127765449-ea113bf6-da79-4e2a-8bff-e482d790b598.png">
+
+  
 # Contact Information
 Incase of any enquiries or contributions, be sure to Email me at [noelatrixie@gmail.com]
 # License
