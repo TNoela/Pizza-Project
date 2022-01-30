@@ -15,8 +15,7 @@ This projects aim is to create a web application for a pizza place where a custo
 *[cd Pizza-Project]<br>
 *Open index.html file on your browser
 # Live Page
-https://tnoela.github.io/Pizza-Project/
-  
+****  
 # Screenshots  
 <img width="941" alt="Home" src="https://user-images.githubusercontent.com/87005540/127765449-ea113bf6-da79-4e2a-8bff-e482d790b598.png">
 <img width="937" alt="About" src="https://user-images.githubusercontent.com/87005540/127765479-550f3db8-6da8-49b3-aa23-064f04009946.png">
